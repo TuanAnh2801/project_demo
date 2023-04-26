@@ -1,0 +1,30 @@
+# .htaccess
+RewriteEngine On
+    RewriteRule trang-chu.html index.php?controller=home&action=index
+
+RewriteRule gioi-thieu.html index.php?controller=home&action=introduce
+
+RewriteRule lien-he.html index.php?controller=home&action=contact
+
+RewriteRule ao.html index.php?controller=home&action=ao1
+
+RewriteRule quan.html index.php?controller=home&action=quan1
+
+RewriteRule phukien.html index.php?controller=home&action=phukien1
+
+RewriteRule register.html index.php?controller=login&action=register
+
+RewriteRule login.html    index.php?controller=login&action=login
+
+
+
+
+
+
+
+RewriteRule gio-hang-cua-ban.html index.php?controller=cart&action=index
+# Xoá sản phẩm,sử dụng tham số động, phải dùng biểu thức chính quy để thể hiện cho tham số động
+# ([0-9]+) -> thể hiện cho 1 số có từ 1 ký tự trở lên
+RewriteRule xoa-san-pham/([0-9]+).html index.php?controller=cart&action=delete&product_id=$1
+
+RewriteRule thanh-toan.html index.php?controller=payment&action=index

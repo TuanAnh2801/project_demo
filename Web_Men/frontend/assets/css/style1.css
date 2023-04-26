@@ -1,0 +1,171 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.content-product a {
+    color: #000;
+}
+.content-product a:hover {
+    text-decoration: none;
+}
+.header {
+    background: #000;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 100px;
+
+
+
+}
+.main {
+    margin-top: 128px;
+}
+.row1 {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#nav li {
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+
+#nav li a {
+    display: block;
+}
+
+.header a {
+    text-decoration: none;
+
+}
+
+.men a {
+    color: #fff;
+}
+
+.men a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav>li>a {
+    color: #fff;
+}
+
+.men {
+    width: 20%;
+    padding: 30px 10px;
+    text-align: center;
+    font-family: Freedom-10eM;
+    font-size: 40px;
+}
+
+.menu {
+    width: 80%;
+    margin-top: 35px;
+    font-size: 18px;
+}
+.nav-item li a{
+    color: #C7C7C7;
+}
+#nav {
+    float: right;
+    padding-right: 50px;
+}
+
+#nav .submenu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    height: 134px;
+    margin-top: 10px;
+    border: 2px solid #ececec;
+    width: 200px;
+
+
+}
+.navbar-nav li a{
+    color: white;
+}
+
+#nav li:hover .submenu {
+    display: block;
+}
+
+#nav>li:hover>a,
+#nav .submenu li:hover a {
+    background-color: #ccc;
+    text-decoration: none;
+}
+
+#nav .submenu li a {
+    border-bottom: 1px solid #ececec;
+    color: #000;
+
+}
+div#navbarNavDropdown {
+    background-color: black;
+    color: white;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.dark {
+    background-color: black !important;
+    margin-top: -6px;
+    margin-left: 174px;
+}
+
+a.nav-link {
+    color: white !important;
+}
+a.nav-link {
+    padding: 2px;
+}
+li.nav-item {
+    padding: 5px;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.dropdown-menu.show a {
+    color: black;
+}
+.row123 {
+    display: flex;
+    width: 79%;
+    margin-left: 123px;
+    color: #777;
+}
+.footer-content {
+    width: 33.3333%;
+    font-weight: bold;
+}
+.contact {
+    position: fixed;
+    top: 30%;
+    right: 10px;
+
+}
+ul.icon-service-wrap img {
+    width: 50px;
+    right: 0;
+}
+.contact ul li {
+    list-style: none;
+    padding: 2px;
+}
